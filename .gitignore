@@ -1,0 +1,6 @@
+# 노드 모듈 파일 제거
+node_modules
+
+# package
+package
+package-lock

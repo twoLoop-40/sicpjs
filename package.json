@@ -1,0 +1,22 @@
+{
+  "name": "sicpjs",
+  "version": "1.0.0",
+  "description": "sicp javascript",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twoLoop-40/sicpjs.git"
+  },
+  "author": "Lee Joon Ho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twoLoop-40/sicpjs/issues"
+  },
+  "homepage": "https://github.com/twoLoop-40/sicpjs#readme",
+  "dependencies": {
+    "sicp": "^1.0.30"
+  }
+}
