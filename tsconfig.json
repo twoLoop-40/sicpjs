@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"lib": ["ES2020", "ESNext"],
+		"target": "ES2020",
+		"module": "CommonJS",
+		"moduleResolution": "Node",
+		"outDir": "./dist",
+		"rootDir": "./lib",
+		"declaration": true,
+		"declarationMap": true, 
+		"inlineSources": true,
+		"inlineSourceMap": true,
+		"experimentalDecorators": true,
+		"noImplicitAny": true
+	}
+}
