@@ -1,4 +1,4 @@
-import { square } from '../study1';
+import { square } from '../study1/index.js';
 
 function sum(term, a, next, b) {
   function iter(a, result) {

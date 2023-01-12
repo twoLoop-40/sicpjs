@@ -13,3 +13,11 @@ function accumulateIter(combiner, nullValue, term, a, next, b) {
   }
   iter(a, nullValue);
 }
+
+function sum(term, a, next, b) {
+  return accumulate((x, y) => x + y, 0, term, a, next, b);
+}
+
+function productIter(term, a, next, b) {
+  return accumulateIter((x, y) => x * y, 1, term, a, next, b);
+}
