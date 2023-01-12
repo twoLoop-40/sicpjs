@@ -1,4 +1,4 @@
-import { inc, dec } from './ch1.js';
+import { inc, dec } from './index.js';
 
 function plusRecur(a, b) {
   return a === 0 ? b : inc(plusRecur(dec(a), b));

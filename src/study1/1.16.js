@@ -1,4 +1,4 @@
-import { isEven, square } from './ch1.js';
+import { isEven, square } from '.';
 
 function fastExptIter(base, exp) {
   fastExptIter.counter = [];

@@ -1,4 +1,4 @@
-import { double, halve, isEven } from './ch1.js';
+import { double, halve, isEven } from './index.js';
 
 function fastTimesIter(a, b) {
   const iter = (a, b, result) => {
