@@ -34,8 +34,6 @@ function midPointSegment(s) {
   return makePoint(midX, midY);
 }
 
-printPoint(midPointSegment(makeSegment(makePoint(2, 3), makePoint(4, 7))));
-
 export {
   makeSegment,
   startSegment,
