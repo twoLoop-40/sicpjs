@@ -1,6 +1,5 @@
-import { pair, head, tail } from 'sicp';
-import { average } from '../study2/index.js';
-import { printPoint } from './index.js';
+const { pair, head, tail } = require('sicp');
+const { average } = require('../study2');
 
 function makeSegment(s, e) {
   return pair(s, e);
@@ -34,7 +33,7 @@ function midPointSegment(s) {
   return makePoint(midX, midY);
 }
 
-export {
+exports.module = {
   makeSegment,
   startSegment,
   endSegment,

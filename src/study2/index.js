@@ -1,4 +1,5 @@
-import { math_abs as mathAbs } from 'sicp';
+const { math_abs: mathAbs } = require('sicp');
+
 function sum(term, a, next, b) {
   return a > b ? 0 : term(a) + sum(term, next(a), next, b);
 }
@@ -43,4 +44,11 @@ function newtonsMethod(g, guess) {
   return fixedPoint(newtonTransform(g), guess);
 }
 
-export { sum, isPrime, averageDamp, average, fixedPoint, newtonsMethod };
+exports.module = {
+  sum,
+  isPrime,
+  averageDamp,
+  average,
+  fixedPoint,
+  newtonsMethod,
+};

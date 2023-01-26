@@ -1,13 +1,13 @@
-import {
-  is_null as isNull,
+const {
+  is_null: isNull,
   accumulate,
   head,
   pair,
   list,
   map,
   tail,
-  display_list as displayList,
-} from 'sicp';
+  display_list: displayList,
+} = require('sicp');
 
 function accumulateN(op, init, seqs) {
   return isNull(head(seqs))

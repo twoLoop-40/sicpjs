@@ -1,8 +1,10 @@
-import { pair } from 'sicp';
-import { mathAbs, isSameSign } from './index.js';
+const { isSameSign, mathAbs } = require('.');
+const { pair } = require('sicp');
 
-export function makeRat(n, d) {
+function makeRat(n, d) {
   isSameSign(n, d)
     ? pair(mathAbs(n), mathAbs(d))
     : pair(-mathAbs(n), mathAbs(d));
 }
+
+module.exports = makeRat;
