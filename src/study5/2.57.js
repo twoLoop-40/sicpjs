@@ -1,4 +1,4 @@
-const { tail, head } = require('sicp');
+const { tail, head, pair, list } = require('sicp');
 
 function makeSum(argList) {
   return pair('+', argList);
